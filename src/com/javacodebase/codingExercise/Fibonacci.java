@@ -11,7 +11,10 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         int n = 10; // Calculate Fibonacci for the 10th term
-        int result = fibonacci(n);
+        int result = fibonacci(4);
+        for(int i=0; i<= n; i++) {
+            System.out.println(fibonacci(i));
+        }
         System.out.println("Fibonacci number at position " + n + " is: " + result);
     }
 }
